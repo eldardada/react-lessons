@@ -1,0 +1,32 @@
+{
+  "name": "react-dl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "bootstrap": "^4.5.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
